@@ -6,3 +6,5 @@ This repository is a place for my capstone ideas not necassarily my capstone pro
   
   * [North Korean Operating System](https://github.com/Kahuna915/Capstone-Design/wiki/North-Korean-Operating-System)
   * [Social Media Platforms...Password Loggers?](https://github.com/Kahuna915/Capstone-Design/wiki/Social-Media-Platforms...Password-Loggers%3F)
+  * [Data Leak Prevention](https://github.com/Kahuna915/Capstone-Design/wiki/Data-leak-Prevention-of-Cloud-based-products)
+  * [Interate AWS or Azure into Cyber.local]
