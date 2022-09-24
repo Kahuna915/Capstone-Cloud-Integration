@@ -5,7 +5,7 @@ This repository is a place for my capstone ideas not necassarily my capstone pro
   This page tells you a little about each topic I will be researching and my direction for the project.
   
   * [Interate AWS or Azure into Cyber.local](https://github.com/Kahuna915/Capstone-Design/wiki/Integrate-AWS-or-Azure-into-Cyber.local) 
-    * [Design Project 1]()
+    * [Design Project 1](https://github.com/Kahuna915/Capstone-Design/wiki/Design-Project-1-Objectives)
   * [Data Leak Prevention](https://github.com/Kahuna915/Capstone-Design/wiki/Data-leak-Prevention-of-Cloud-based-products)
  
 
