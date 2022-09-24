@@ -8,3 +8,5 @@ This repository is a place for my capstone ideas not necassarily my capstone pro
   * [Social Media Platforms...Password Loggers?](https://github.com/Kahuna915/Capstone-Design/wiki/Social-Media-Platforms...Password-Loggers%3F)
   * [Data Leak Prevention](https://github.com/Kahuna915/Capstone-Design/wiki/Data-leak-Prevention-of-Cloud-based-products)
   * [Interate AWS or Azure into Cyber.local](https://github.com/Kahuna915/Capstone-Design/wiki/Integrate-AWS-or-Azure-into-Cyber.local)
+
+# [Refrences:](https://github.com/Kahuna915/Capstone-Design/wiki/References)
