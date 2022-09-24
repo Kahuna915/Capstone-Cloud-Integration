@@ -4,9 +4,11 @@ This repository is a place for my capstone ideas not necassarily my capstone pro
 # [Topic Selection](https://github.com/Kahuna915/Capstone-Design/wiki/Topic-Selection)
   This page tells you a little about each topic I will be researching and my direction for the project.
   
-  * [North Korean Operating System](https://github.com/Kahuna915/Capstone-Design/wiki/North-Korean-Operating-System)
-  * [Social Media Platforms...Password Loggers?](https://github.com/Kahuna915/Capstone-Design/wiki/Social-Media-Platforms...Password-Loggers%3F)
+  * [Interate AWS or Azure into Cyber.local](https://github.com/Kahuna915/Capstone-Design/wiki/Integrate-AWS-or-Azure-into-Cyber.local) 
+    * [Design Project 1]()
   * [Data Leak Prevention](https://github.com/Kahuna915/Capstone-Design/wiki/Data-leak-Prevention-of-Cloud-based-products)
-  * [Interate AWS or Azure into Cyber.local](https://github.com/Kahuna915/Capstone-Design/wiki/Integrate-AWS-or-Azure-into-Cyber.local)
+ 
 
-# [Refrences:](https://github.com/Kahuna915/Capstone-Design/wiki/References)
+  
+
+# [Refrences](https://github.com/Kahuna915/Capstone-Design/wiki/References)
