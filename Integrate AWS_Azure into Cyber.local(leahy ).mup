@@ -1,0 +1,937 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "6": {
+      "title": "Cyber AWS",
+      "id": 1,
+      "attr": {
+        "style": {
+          "text": {
+            "color": "#00FFFF"
+          },
+          "backgroundColor": "#FF0000",
+          "width": 204
+        },
+        "position": [
+          765,
+          -490,
+          1
+        ]
+      },
+      "ideas": {
+        "0.5": {
+          "title": "Network",
+          "id": "8.190a.6ae9b9648-46a4.ffd1977fe",
+          "attr": {
+            "style": {
+              "backgroundColor": "#FFCC00"
+            },
+            "position": [
+              250,
+              -407,
+              1
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Virtual cloud integration",
+              "id": "72.d1cf.31c93f7e3-8e6a.a3ec28f15",
+              "attr": {
+                "position": [
+                  109,
+                  97,
+                  1
+                ],
+                "style": {
+                  "backgroundColor": "#00FF00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Gateways",
+                  "id": "74.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                  "ideas": {
+                    "1": {
+                      "title": "Cyber.Local",
+                      "id": "43.190a.6ae9b9648-46a4.ffd1977fe",
+                      "ideas": {
+                        "5": {
+                          "title": "VPN connection For students/Cloud Access ",
+                          "id": "48.190a.6ae9b9648-46a4.ffd1977fe",
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FF0000",
+                              "text": {
+                                "color": "#00FFFF"
+                              }
+                            }
+                          }
+                        },
+                        "2.5": {
+                          "title": "Gateway",
+                          "id": "76.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                          "attr": {
+                            "position": [
+                              16,
+                              -89,
+                              1
+                            ],
+                            "style": {
+                              "backgroundColor": "#FF0000",
+                              "text": {
+                                "color": "#33CCCC"
+                              }
+                            }
+                          },
+                          "ideas": {
+                            "1": {
+                              "title": "Access control",
+                              "id": "77.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                              "ideas": {
+                                "1": {
+                                  "title": "Vcenter01/02",
+                                  "id": "57.190a.6ae9b9648-46a4.ffd1977fe",
+                                  "ideas": {
+                                    "1": {
+                                      "title": "Gateway/gateways",
+                                      "id": "78.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                                      "ideas": {
+                                        "1": {
+                                          "title": "Foster",
+                                          "id": "36.190a.6ae9b9648-46a4.ffd1977fe",
+                                          "ideas": {
+                                            "1": {
+                                              "title": "Endpoints",
+                                              "id": "40.190a.6ae9b9648-46a4.ffd1977fe",
+                                              "attr": {
+                                                "style": {
+                                                  "backgroundColor": "#00FF00"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "attr": {
+                                            "style": {
+                                              "width": 38,
+                                              "backgroundColor": "#00FF00"
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "Skiff",
+                                          "id": "38.190a.6ae9b9648-46a4.ffd1977fe",
+                                          "ideas": {
+                                            "1": {
+                                              "title": "Endpoints",
+                                              "id": "41.190a.6ae9b9648-46a4.ffd1977fe",
+                                              "attr": {
+                                                "style": {
+                                                  "backgroundColor": "#00FF00"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "attr": {
+                                            "style": {
+                                              "backgroundColor": "#00FF00"
+                                            }
+                                          }
+                                        },
+                                        "3": {
+                                          "title": "Joyce",
+                                          "id": "37.190a.6ae9b9648-46a4.ffd1977fe",
+                                          "ideas": {
+                                            "1": {
+                                              "title": "Endpoints",
+                                              "id": "39.190a.6ae9b9648-46a4.ffd1977fe",
+                                              "attr": {
+                                                "style": {
+                                                  "backgroundColor": "#00FF00"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "attr": {
+                                            "style": {
+                                              "backgroundColor": "#00FF00"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "backgroundColor": "#FF0000",
+                                          "text": {
+                                            "color": "#00FFFF"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "backgroundColor": "#00FF00"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "backgroundColor": "#FF9900"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#00FF00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FF9900"
+                    },
+                    "note": {
+                      "index": 16,
+                      "text": "Most likely will have to communicate with Champlain to make sure the integration of a hybrid environment will be all good on their end."
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Authentication",
+              "id": "10.190a.6ae9b9648-46a4.ffd1977fe",
+              "attr": {
+                "style": {
+                  "backgroundColor": "#FFCC00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Security Groups?",
+                  "id": "71.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                  "ideas": {
+                    "1": {
+                      "title": "Authorization 2FA?",
+                      "id": "11.190a.6ae9b9648-46a4.ffd1977fe",
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FF0000",
+                          "text": {
+                            "color": "#00FFFF"
+                          }
+                        },
+                        "note": {
+                          "index": 31,
+                          "text": "Using two-factor authentication will allow for more secure accounts"
+                        }
+                      },
+                      "ideas": {
+                        "1": {
+                          "title": "Security Groups",
+                          "id": "12.190a.6ae9b9648-46a4.ffd1977fe",
+                          "ideas": {
+                            "1": {
+                              "title": "Student Group",
+                              "id": "13.190a.6ae9b9648-46a4.ffd1977fe",
+                              "attr": {
+                                "position": [
+                                  69,
+                                  -113,
+                                  1
+                                ],
+                                "style": {
+                                  "backgroundColor": "#FFCC00"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "Higher level classes group",
+                                  "id": "17.190a.6ae9b9648-46a4.ffd1977fe",
+                                  "attr": {
+                                    "position": [
+                                      146,
+                                      1,
+                                      1
+                                    ],
+                                    "style": {
+                                      "backgroundColor": "#FFCC00"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "High level access similar to vcenter02 with more resources",
+                                      "id": "54.190a.6ae9b9648-46a4.ffd1977fe",
+                                      "attr": {
+                                        "style": {
+                                          "backgroundColor": "#FFCC00"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "0.5": {
+                                  "title": "Low level classes group",
+                                  "id": "18.190a.6ae9b9648-46a4.ffd1977fe",
+                                  "attr": {
+                                    "position": [
+                                      172,
+                                      -55,
+                                      2
+                                    ],
+                                    "style": {
+                                      "backgroundColor": "#FFCC00"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "1st/2nd year students low access ",
+                                      "id": "52.190a.6ae9b9648-46a4.ffd1977fe",
+                                      "attr": {
+                                        "style": {
+                                          "backgroundColor": "#FFCC00"
+                                        }
+                                      },
+                                      "ideas": {
+                                        "1": {
+                                          "title": "Scripts for snapshot reversion?",
+                                          "id": "119.4d5b.1938f786f-1f03.0f3a834ac",
+                                          "attr": {
+                                            "style": {
+                                              "backgroundColor": "#FFCC00"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "2": {
+                              "title": "Admin (teacher) Group",
+                              "id": "15.190a.6ae9b9648-46a4.ffd1977fe",
+                              "attr": {
+                                "position": [
+                                  127,
+                                  137,
+                                  2
+                                ],
+                                "style": {
+                                  "backgroundColor": "#FFCC00"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "Most access outside of domain admin",
+                                  "id": "50.190a.6ae9b9648-46a4.ffd1977fe",
+                                  "attr": {
+                                    "style": {
+                                      "backgroundColor": "#FFCC00"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "Two accounts minimum? So there isn't a single POF",
+                                      "id": "121.4d5b.1938f786f-1f03.0f3a834ac",
+                                      "attr": {
+                                        "style": {
+                                          "backgroundColor": "#FFCC00"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "1.5": {
+                              "title": "Student Managing group (if needed)",
+                              "id": "19.190a.6ae9b9648-46a4.ffd1977fe",
+                              "ideas": {
+                                "1": {
+                                  "title": "Paid group of students /volunteer to run the backends and get hands on experience within cloud",
+                                  "id": "51.190a.6ae9b9648-46a4.ffd1977fe",
+                                  "attr": {
+                                    "style": {
+                                      "backgroundColor": "#FFCC00"
+                                    }
+                                  },
+                                  "ideas": {}
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "backgroundColor": "#FFCC00"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FF0000",
+                              "text": {
+                                "color": "#00FFFF"
+                              }
+                            },
+                            "note": {
+                              "index": 32,
+                              "text": "Ranging from students to professors and maybe a potential manager of the cyber.aws, there will need to be roles and groups defined for the security of the environment."
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "width": 101,
+                      "backgroundColor": "#FFFF99"
+                    },
+                    "position": [
+                      89.99655151367188,
+                      -82.97576904296875,
+                      1
+                    ]
+                  }
+                },
+                "2": {
+                  "title": "Automation within the cloud",
+                  "id": "23.190a.6ae9b9648-46a4.ffd1977fe",
+                  "ideas": {
+                    "1": {
+                      "title": "Account Creation Groups assinged? ",
+                      "id": "91.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                      "ideas": {
+                        "1": {
+                          "title": "Active Directory?",
+                          "id": "92.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FF0000",
+                              "text": {
+                                "color": "#33CCCC"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "position": [
+                          183,
+                          10,
+                          1
+                        ],
+                        "style": {
+                          "backgroundColor": "#FF0000",
+                          "text": {
+                            "color": "#33CCCC"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FF0000",
+                      "text": {
+                        "color": "#00FFFF"
+                      }
+                    },
+                    "note": {
+                      "index": 44,
+                      "text": "Set up classes in minutes, create accounts with the correct permissions, and manage the boxes that send red flags—all things we would automate."
+                    }
+                  }
+                }
+              }
+            },
+            "0.25": {
+              "title": "Monitoring ",
+              "id": "79.d1cf.31c93f7e3-8e6a.a3ec28f15",
+              "attr": {
+                "position": [
+                  163,
+                  -245,
+                  3
+                ],
+                "style": {
+                  "backgroundColor": "#FF9900"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Institute cloud trail? For users actions",
+                  "id": "84.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                  "ideas": {
+                    "1": {
+                      "title": "Access? What group?",
+                      "id": "86.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                      "ideas": {
+                        "1": {
+                          "title": "Admin? Or student/Leahy?",
+                          "id": "87.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FF9900"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "position": [
+                          230,
+                          39,
+                          1
+                        ],
+                        "style": {
+                          "backgroundColor": "#FF9900"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FF9900"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Cloud watch for health of systems",
+                  "id": "85.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                  "ideas": {},
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FF9900"
+                    }
+                  }
+                }
+              }
+            },
+            "0.375": {
+              "title": "Virtual backups/On site backups?",
+              "id": "80.d1cf.31c93f7e3-8e6a.a3ec28f15",
+              "attr": {
+                "position": [
+                  354,
+                  -144,
+                  4
+                ],
+                "style": {
+                  "backgroundColor": "#FF0000",
+                  "text": {
+                    "color": "#33CCCC"
+                  }
+                },
+                "note": {
+                  "index": 11,
+                  "text": "We saw a datastore die last semester with a less than smooth transition to get back up. Using backups would prevent the need to rebuild environments."
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Machine 1 for 2 days",
+                  "id": "81.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                  "ideas": {
+                    "1": {
+                      "title": "Machine 2 for 2 days",
+                      "id": "82.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FF0000",
+                          "text": {
+                            "color": "#33CCCC"
+                          }
+                        }
+                      },
+                      "ideas": {
+                        "1": {
+                          "title": "Machine 3 for 1 week",
+                          "id": "83.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FF0000",
+                              "text": {
+                                "color": "#33CCCC"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FF0000",
+                      "text": {
+                        "color": "#33CCCC"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "0.125": {
+              "title": "Services needed for classes/network",
+              "id": "100.d1cf.31c93f7e3-8e6a.a3ec28f15",
+              "attr": {
+                "position": [
+                  37,
+                  -615,
+                  5
+                ],
+                "style": {
+                  "backgroundColor": "#00FF00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Containers for said services",
+                  "id": "101.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#00FF00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Ansible deploy for configured containers?",
+                  "id": "116.4d5b.1938f786f-1f03.0f3a834ac",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#00FF00"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "-1": {
+          "title": "Overall Budget",
+          "id": "89.d1cf.31c93f7e3-8e6a.a3ec28f15",
+          "ideas": {
+            "1": {
+              "title": "Big red button? ",
+              "id": "65.d1cf.31c93f7e3-8e6a.a3ec28f15",
+              "ideas": {
+                "1": {
+                  "title": "Administrators whom have access and How? NFC Keys/Password/ Password policy?",
+                  "id": "60.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                  "ideas": {
+                    "1": {
+                      "title": "Machine dedicated for billing ",
+                      "id": "58.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                      "ideas": {
+                        "1": {
+                          "title": "Billing Warnings/Notifications/Reports!",
+                          "id": "34.190a.6ae9b9648-46a4.ffd1977fe",
+                          "ideas": {
+                            "1": {
+                              "title": "If warning instigate shutdown for particular machine? ",
+                              "id": "66.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                              "attr": {
+                                "position": [
+                                  128,
+                                  -138,
+                                  1
+                                ],
+                                "style": {
+                                  "backgroundColor": "#008000"
+                                }
+                              }
+                            },
+                            "2": {
+                              "title": "Biling Policies",
+                              "id": "35.190a.6ae9b9648-46a4.ffd1977fe",
+                              "attr": {
+                                "style": {
+                                  "backgroundColor": "#FF0000",
+                                  "text": {
+                                    "color": "#00FFFF"
+                                  }
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "IaaS Provider AWS/Azure/IDrive ",
+                                  "id": "24.190a.6ae9b9648-46a4.ffd1977fe",
+                                  "attr": {
+                                    "style": {
+                                      "width": 107,
+                                      "backgroundColor": "#FF0000",
+                                      "text": {
+                                        "color": "#00FFFF"
+                                      }
+                                    },
+                                    "position": [
+                                      91,
+                                      102,
+                                      1
+                                    ]
+                                  },
+                                  "ideas": {}
+                                },
+                                "2": {
+                                  "title": "What classes will benefit from this the most?",
+                                  "id": "115.4d5b.1938f786f-1f03.0f3a834ac",
+                                  "attr": {
+                                    "style": {
+                                      "backgroundColor": "#008000"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "3": {
+                              "title": "Budget for test case",
+                              "id": "114.4d5b.1938f786f-1f03.0f3a834ac",
+                              "attr": {
+                                "style": {
+                                  "backgroundColor": "#FF9900"
+                                }
+                              }
+                            },
+                            "0.5": {
+                              "title": "Alert whom teacher group or admins? ",
+                              "id": "67.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                              "attr": {
+                                "position": [
+                                  134,
+                                  -315,
+                                  2
+                                ],
+                                "style": {
+                                  "backgroundColor": "#008000"
+                                }
+                              },
+                              "ideas": {}
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FF0000",
+                              "text": {
+                                "color": "#00FFFF"
+                              }
+                            },
+                            "position": [
+                              187,
+                              -81,
+                              1
+                            ],
+                            "note": {
+                              "index": 58,
+                              "text": "When warnings come in we would like to create an automated script that will shut down the particular box.\nSend reports to admin if critical infrastructure boxes are reaching a limit.\nAnd determine the overall budgeting"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#008000"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Teacher resigns policy?",
+                      "id": "68.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                      "attr": {
+                        "position": [
+                          200,
+                          111,
+                          3
+                        ],
+                        "style": {
+                          "backgroundColor": "#FF9900"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "Back up system/systems in case of ransomeware",
+                      "id": "69.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FF9900"
+                        }
+                      }
+                    },
+                    "4": {
+                      "title": "Somewhere to store the Admin Account",
+                      "id": "113.4d5b.1938f786f-1f03.0f3a834ac",
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FF9900"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#008000"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "backgroundColor": "#008000"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "backgroundColor": "#FF0000",
+              "text": {
+                "color": "#FFFFFF"
+              }
+            },
+            "note": {
+              "index": 54,
+              "text": "This will include everything, including how we want to charge (buy in bulk or charge by demand?)."
+            }
+          }
+        },
+        "1.5": {
+          "title": "Security Aspect",
+          "id": "94.d1cf.31c93f7e3-8e6a.a3ec28f15",
+          "ideas": {
+            "1": {
+              "title": "Needs Redudnacy",
+              "id": "70.d1cf.31c93f7e3-8e6a.a3ec28f15",
+              "attr": {
+                "position": [
+                  86,
+                  -69,
+                  1
+                ],
+                "style": {
+                  "backgroundColor": "#FF9900"
+                }
+              }
+            },
+            "2": {
+              "title": "Separate Group for eth hack classes ",
+              "id": "95.d1cf.31c93f7e3-8e6a.a3ec28f15",
+              "attr": {
+                "position": [
+                  373.00341796875,
+                  -31.97918701171875,
+                  2
+                ],
+                "style": {
+                  "backgroundColor": "#00FF00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Must worry about  students that are gifted at hacking",
+                  "id": "96.d1cf.31c93f7e3-8e6a.a3ec28f15",
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FFFF99"
+                    }
+                  }
+                }
+              }
+            },
+            "4": {
+              "title": "IDS system/IPS system",
+              "id": "97.d1cf.31c93f7e3-8e6a.a3ec28f15",
+              "attr": {
+                "position": [
+                  159.99993896484375,
+                  194.03814697265625,
+                  5
+                ],
+                "style": {
+                  "backgroundColor": "#FF0000",
+                  "text": {
+                    "color": "#00FFFF"
+                  }
+                }
+              }
+            },
+            "5": {
+              "title": "Policy's for students use?",
+              "id": "98.d1cf.31c93f7e3-8e6a.a3ec28f15",
+              "attr": {
+                "position": [
+                  361.99993896484375,
+                  234.03814697265625,
+                  4
+                ],
+                "style": {
+                  "backgroundColor": "#008000"
+                }
+              }
+            },
+            "6": {
+              "title": "Different groups for different classes? ",
+              "id": "99.d1cf.31c93f7e3-8e6a.a3ec28f15",
+              "attr": {
+                "position": [
+                  62.99993896484375,
+                  292.0416259765625,
+                  6
+                ],
+                "style": {
+                  "backgroundColor": "#00FF00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "backgroundColor": "#FF0000",
+              "text": {
+                "color": "#33CCCC"
+              }
+            }
+          }
+        }
+      }
+    },
+    "7": {
+      "title": "Cyber Azure?",
+      "id": "124.4d5b.1938f786f-1f03.0f3a834ac",
+      "attr": {
+        "position": [
+          773,
+          -440,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#FF0000"
+        },
+        "note": {
+          "index": 68,
+          "text": "Potentially another solution to budget out. Determine if it has better features for our environment"
+        }
+      }
+    }
+  },
+  "title": "Cyber AWS",
+  "links": [
+    {
+      "ideaIdFrom": "85.d1cf.31c93f7e3-8e6a.a3ec28f15",
+      "ideaIdTo": "86.d1cf.31c93f7e3-8e6a.a3ec28f15",
+      "attr": {
+        "style": {
+          "color": "#707070",
+          "lineStyle": "solid",
+          "arrow": "to"
+        }
+      }
+    }
+  ],
+  "attr": {
+    "theme": "straightlines"
+  }
+}
