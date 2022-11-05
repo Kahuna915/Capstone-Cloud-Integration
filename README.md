@@ -6,7 +6,7 @@ This repository is a place for my capstone ideas not necassarily my capstone pro
   
   * [Interate AWS or Azure into Cyber.local](https://github.com/Kahuna915/Capstone-Design/wiki/Integrate-AWS-or-Azure-into-Cyber.local) 
     * [Design Project 1 Objectives Sep 15th - Oct 16th](https://github.com/Kahuna915/Capstone-Design/wiki/Design-Project-1-Objectives-Sep-15th---Oct-16th)
-    * [Design Project 2 Objectives Oct 16th - November 3rd](https://github.com/Kahuna915/Capstone-Design/wiki/Design-Project-2-Objectives-Oct-16th---November-3rd)
+    * [Design Project 2 Objectives Oct 16th - November 10th](https://github.com/Kahuna915/Capstone-Design/wiki/Design-Project-2-Objectives-Oct-16th---November-15th)
   * [Data Leak Prevention](https://github.com/Kahuna915/Capstone-Design/wiki/Data-leak-Prevention-of-Cloud-based-products)
  
 
