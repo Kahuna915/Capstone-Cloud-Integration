@@ -1,4 +1,4 @@
-# Capstone-Design
+# Capstone-Cloud Integration
 This repository is a place for my capstone ideas not necassarily my capstone project. This is where I will be creating and furthering my ideas for my Capstone Project. Any suggestions are more than apperciated!
 
 # [Topic Selection](https://github.com/Kahuna915/Capstone-Design/wiki/Topic-Selection)
