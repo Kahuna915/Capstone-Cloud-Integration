@@ -37,6 +37,7 @@ Resources:
       ParentId: [{"Ref": "ClassName2"}] # This allows us to created a nested OU in ClassName2 | Could be used for group projects or to move users around a bit easier
         # ParentId: !Ref ClassName2
     DependsOn: ClassName2
+    # DependsOn?
 
   
   ClassName3:
