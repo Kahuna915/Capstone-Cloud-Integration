@@ -1,0 +1,61 @@
+# Wrtiten By Noah Stiles 
+# 2/4/2023
+# Refrence:
+#  https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/ 
+
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: <"AWS Organizations using Cloudformation - Creates OU, and nested OU">
+
+# In AWS you need to set a paramter that you type for the base OU
+Parameters:
+  OrganizationRoot:
+    Description: 'Root of the organization' 
+    Type: String 
+
+Resources:
+
+# This creates an OU, 1 deep from the Organizational Root
+  ClassName1:
+      Type: AWS::Organizations::OrganizationalUnit # Tells AWS "HEY in our org we are making an OU"
+      Properties: 
+          Name: Classname1 # Here we name the OU group | So what it will look like in the GUI
+          ParentId: !Ref OrganizationRoot # This shows where it will be nested 
+
+  ClassName2:
+     Type: AWS::Organizations::OrganizationalUnit
+     Properties:
+        Name: Classame2
+        ParentId: !Ref OrganizationRoot
+
+  Class2Group1:
+    Type: AWS::Organizations::OrganizationalUnit
+    Properties:
+      Name: Class2Group1
+      ParentId: [{"Ref": "ClassName2"}] # This allows us to created a nested OU in ClassName2 | Could be used for group projects or to move users around a bit easier
+    DependsOn: ClassName2
+
+  
+  ClassName3:
+     Type: AWS::Organizations::OrganizationalUnit
+     Properties:
+        Name: Classname3
+        ParentId: !Ref OrganizationRoot
+
+  ClassName4:
+     Type: AWS::Organizations::OrganizationalUnit
+     Properties:
+        Name: Classname4
+        ParentId: !Ref OrganizationRoot
+
+
+  
+# Available top-level fields are listed in code completion
+
+# Add Resources Here: uncomment the following lines
+# Resources:
+#   <resource name here>:
+#     Type: # resource type here - available resources are listed in code completion
+#     # <add resource-specific properties underneath this entry  - available properties are listed in code completion>
+#     Properties:
+

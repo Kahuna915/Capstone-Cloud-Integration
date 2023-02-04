@@ -1,0 +1,75 @@
+# Wrtiten By Noah Stiles 
+# 2/4/2023
+# Refrence:
+#  https://aws.amazon.com/blogs/security/deploy-aws-organizations-resources-by-using-cloudformation/ 
+
+AWSTemplateFormatVersion: '2010-09-09'
+Description: "AWS Organizations using Cloudformation - Creates OU, nested OU, account and organizations policies"
+
+Parameters:
+  OrganizationRoot:
+    Description: 'Base of the OU'
+    Type: String 
+
+Resources:
+  UserCreationOU: #Creating UserCreation HUB test
+      Type: AWS::Organizations::OrganizationalUnit 
+      Properties:
+          Name: Usercreation
+          ParentId: !Ref OrganizationRoot
+
+  AccountA:
+    # READ THIS BEFORE RUNNING!!!!!!!!!!!!!!!!!!
+    # Make sure to not run this unless this a real email or else the account can't be deleted!
+      Type: AWS::Organizations::Account
+      Properties:
+        AccountName: user.created #Creates a username
+        Email: user.created@example.com #Gives them an email!
+        ParentIds: [{"Ref": "UserCreationOU"}] # Adds them to the correct OU
+
+
+  PreventCloudTrailDisablementSCP:
+      Type: AWS::Organizations::Policy # Specifys we are creating a Policy 
+      Properties:
+          TargetIds: [{"Ref": "UserCreationOU"}] # Tells it which OU to target 
+          Name: PreventCloudTrailDisablement # Names it
+          Description: Prevent users from disabling CloudTrail or altering its configuration #Gives it a clear description
+          Type: SERVICE_CONTROL_POLICY # Specifys the type of policy
+          Content: >-
+            {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Deny",
+                  "Action": [
+                    "cloudtrail:DeleteTrail",
+                    "cloudtrail:PutEventSelectors",
+                    "cloudtrail:StopLogging", 
+                    "cloudtrail:UpdateTrail" 
+
+                  ],
+                  "Resource": "*"
+                }
+              ]
+            }
+
+  TagPolicy: # Pretty much adds a tag which is for organization 
+      Type: AWS::Organizations::Policy
+      Properties:
+          TargetIds: [{"Ref": "TestingUserCreationOU"}]
+          Name: DefineTagKeyCase
+          Description: CostCenter tag should comply with case specified in the policy
+          Type: TAG_POLICY
+          Content: >-
+            {
+                "tags": {
+                  "CostCenter": {
+                      "tag_key": {
+                        "@@assign": "CostCenter",
+                        "@@operators_allowed_for_child_policies": ["@@none"]
+                        }
+                      }
+                    }
+            }
+
+  
