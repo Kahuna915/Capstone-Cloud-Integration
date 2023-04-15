@@ -17,9 +17,6 @@ Computer resources are limited and rapidly changing. On premise devices that you
 The purpose of this capstone is for me and my team to understand how the cloud works. We all find the cloud absolutely fascinating and I strongly believe its a new technology that is world changing and has the potential to be altered slightly and improve life for many around the world. My hope is we can setup cyber.local but if not I believe the experience of working within a cloud and having this baseline setup is invaluable knowledge.
 
 
-
-
-  * [Data Leak Prevention](https://github.com/Kahuna915/Capstone-Design/wiki/Data-leak-Prevention-of-Cloud-based-products)
  
 
   
