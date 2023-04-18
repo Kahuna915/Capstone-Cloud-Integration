@@ -1,0 +1,42 @@
+# Noah Stiles
+# March 5th 2023
+# Offical Cyber.local Document
+# Have to change all things in <CHANGE_ME>
+# Run in cloud formation
+
+Parameters:
+  DirectoryDNSName:
+    Type: String
+    Description: The fully qualified DNS name of the on-premises Active Directory domain.
+  DirectoryServiceAccountPassword:
+    Type: String
+    Description: The password for the account used to join the AD Connector to the on-premises Active Directory domain.
+    NoEcho: true
+  SubnetIds:
+    Type: List<AWS::EC2::Subnet::Id>
+    Description: The IDs of the subnets in which to create the AD Connector.
+  SecurityGroupIds:
+    Type: List<AWS::EC2::SecurityGroup::Id>
+    Description: The IDs of the security groups for the AD Connector.
+
+Resources:
+  ADConnector:
+    Type: "AWS::DirectoryService::ADConnector"
+    Properties:
+      ConnectSettings:
+        CyberDnsIps:
+          - 192.168.4.3
+          - 192.168.4.4
+          - 192.168.4.5
+        CyberUserName: CapstoneCyberAWSConnectorService # Service accoount
+        CyberPassword: !Ref DirectoryServiceAccountPassword
+      Name: ADConnection
+      SubnetIds: !Ref SubnetIds
+      SecurityGroupIds: !Ref SecurityGroupIds
+      VpcId: vpc-05035cb734a674791
+      Password: C@p5t0n3!
+      Size: Small
+
+Outputs:
+  ConnectorId:
+    Value: !Ref ADConnector
